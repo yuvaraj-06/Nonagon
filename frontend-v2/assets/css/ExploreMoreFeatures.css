@@ -1,0 +1,71 @@
+.explr-cards .explr-card {
+  padding: 1rem 1.5rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.12) 0px 7px 20px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+          box-shadow: rgba(0, 0, 0, 0.12) 0px 7px 20px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.explr-cards .explr-card .explr-i {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  border-radius: 50%;
+  background-color: #ececec;
+  width: 1.7rem;
+  height: 1.7rem;
+  text-align: center;
+  line-height: 1.7rem;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #888888;
+  -webkit-box-shadow: #bdbdbd 0px 0px 0px 1.5px;
+          box-shadow: #bdbdbd 0px 0px 0px 1.5px;
+}
+
+.explr-cards .explr-card .explr-title {
+  color: #5E72E4;
+  font-weight: 700;
+}
+
+.explr-cards .explr-card .explr-title i {
+  margin-right: 0.5rem;
+}
+
+.explr-cards .explr-card .explr-body {
+  padding: 0;
+}
+
+.explr-cards .explr-card .explr-body .explr-checkbox {
+  padding: 0 1.28rem;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: pointer;
+}
+
+.explr-submit {
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.explr-submit .btn {
+  font-size: 1.1rem;
+  background-color: #5E72E4;
+  color: #ffffff;
+}
+
+.explr-page {
+  padding: 0rem 3rem 1rem;
+}
+
+@media (max-width: 768px) {
+  .explr-page {
+    padding: 0rem 1rem 1rem;
+  }
+}

@@ -1,0 +1,144 @@
+.today-container{
+    padding: 1rem 0.1rem;
+    background-color: #f2f5ff;
+    border-radius: 0.4rem;
+}
+
+.summary-card-title{
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    color: #32325D;
+    font-weight: 600;
+    margin-bottom: 1.5em;
+
+    i{
+        margin: 0 10px 0 0;
+        color: #5E72E4;
+    }
+}
+
+.summary-data{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: left;
+
+    .data-title{
+        padding-bottom: 6px;
+        padding-top: 0;
+
+        font-size: 0.8em;
+        color: #6262ff;
+        font-weight: 700;
+    }
+
+    .data-box{
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        font-size: 0.9rem;
+        height: 7rem;
+        color: #32325D;
+        font-weight: 500;
+
+        .data-prcntg{
+            font-weight: 900;
+            color: #5E72E4;
+            margin-bottom: 10px;
+        }
+
+    }
+    &.sum-container{
+        margin: 0.2rem 0rem;
+    }
+
+    .today-card{
+
+        .sum-title{
+            font-size: 0.6rem;
+            font-weight: 700;
+            color: #5E72E4;
+
+        i{
+                font-size: 0.7em;
+                transform: translateY(-2px);
+                margin: 0 3px 0 0;
+            }
+        }
+        .sum-data{
+            font-size: 1.3rem;
+            text-align: left;
+            i{
+                font-size: 1em;
+                position: absolute;
+                bottom: 5px;
+                margin-left: 0.3rem;
+                &.up{
+                    color: #63d697
+                }
+                &.down{
+                    color: #ff8279
+                }
+                &.equal{
+                    font-size: 1rem;
+                    color: #ffb555
+                }
+            }
+        }
+    }
+
+    
+}
+
+.weekly-avg{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1em;
+    .bars-card{
+        padding-top: 10px;
+
+        .sum-title{
+            padding-bottom: 0;
+            margin-bottom: 0;
+            font-size: 0.8em;
+            font-weight: 700;
+            color: #ffffff;
+            padding: 0.7em;
+            border-radius: 4px;
+            background-color: #7c90ff;
+
+        i{
+                font-size: 0.7em;
+                transform: translateY(-2px);
+                margin: 0 3px 0 0;
+            }
+        }
+        .sum-data{
+            font-size: 1.8em;
+            font-weight: 500;
+        }
+    }
+}
+
+.summary-chart{
+    width: 100% !important;
+    margin: 10px 0;
+    box-shadow: none !important;
+
+    .summary-graph-title{
+        font-size: 1em;
+    }
+
+    .summary-graph-feature{
+        font-size: 1em;
+    }
+}
+
+.summary-card-container{
+    margin: 0 30px;
+    @media (max-width: 768px) {
+        margin: 0 0;
+    }
+}
+

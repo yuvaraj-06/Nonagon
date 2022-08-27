@@ -1,0 +1,73 @@
+.main-notifications {
+
+	min-width: 550px;
+	box-shadow: rgba(121, 121, 121, 0.4) 0px 8px 24px;
+	position: absolute;
+	top: 55px;
+	right: 0;
+	max-height: 80vh;
+	overflow-y: auto;
+	z-index: 1000;
+	
+	&::-webkit-scrollbar {
+		display: none;
+	}
+	
+	h2{
+		margin: 5px 0 20px 10px;
+	}
+	
+	.notification-card{
+		width: 500px;
+		
+		.sb{
+			display: flex;
+			justify-content: space-between;
+		}
+		
+		p{
+			font-size: 0.9rem;
+		}
+		
+		.title{
+			font-size: 1.1rem;
+			font-weight: 700;
+		}
+		
+		img{
+			
+			height: 10px;
+			margin-bottom: 16px;
+			margin-left: 5px;
+		}
+
+		.vc{
+			display: flex;
+			align-items: center;
+		}
+
+		.action{
+			font-weight: 600;
+		}
+	}
+
+}
+
+@media only screen and (max-width: 768px) {
+	.main-notifications {
+		min-width: unset;
+
+		position: fixed;
+		left: 50%;
+		top: 80px;
+		transform: translateX(-50%);
+
+		max-height: calc(100vh - 90px );
+		width: 95vw;
+		// transform: translateX(100px);
+		// right: -18vw;
+		.notification-card{
+			width: 100%;
+		}
+	}
+}

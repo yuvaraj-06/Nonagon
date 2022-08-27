@@ -1,0 +1,17 @@
+.explr-i {
+  position: absolute;
+  right: 15px;
+  bottom: 5px;
+  border-radius: 50%;
+  background-color: #ececec;
+  width: 1.7rem;
+  height: 1.7rem;
+  text-align: center;
+  line-height: 1.7rem;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #888888;
+  -webkit-box-shadow: #bdbdbd 0px 0px 0px 1.5px;
+          box-shadow: #bdbdbd 0px 0px 0px 1.5px;
+}

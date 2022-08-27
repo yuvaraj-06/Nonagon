@@ -1,0 +1,222 @@
+@import url(./notifications.scss);
+@import url(./highlightsTab.scss);
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active{
+    // color: rgb(0, 0, 0) !important;
+    background: rgba(94, 114, 228, 0.2);
+    
+    // .text-primary {
+        // color: rgb(0, 0, 0) !important;
+    // }
+}
+
+.outlet-time{
+    text-align: left;
+    margin-left: 2em;
+}
+.dashboard-tab-container{
+    min-height: 100vh;
+}
+
+.disabled-modal{
+    cursor: not-allowed;
+}
+
+@media screen and (max-width: 576px) {
+    .g-sidenav-pinned .sidenav{
+        max-width: 300px !important;
+    }
+
+    .text-white.mb-0.ml-3.font-weight-bolder{
+        display: none;
+    }
+
+    .card-stats.card{
+        height: unset !important;
+    }
+
+    .align-items-center.py-4.row{
+        border-color: lightcoral;
+
+        .text-right.col-6.col-lg-6{
+            flex: unset;
+            max-width: unset;
+        }
+    }
+}
+
+.card-col{
+    height: 100% !important;
+    // margin: 20px 0;
+}
+
+// .card{
+//     margin: 0;
+// }
+
+.card-stats.card{
+    // height: 16vw;
+    height: 160px;
+}
+
+.cam-btn-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding-left: 1.4em !important;
+}
+.cam-btn{
+    height: 2.4em;
+    margin: 6px 8px !important;
+    padding: 4px 9px!important;
+}
+
+.cam-title{
+    padding-left: 1em !important;
+}
+
+.award-modal-header{
+    padding: 2.3em 2.3em 0 !important;
+}
+.award-modal-content{
+    padding: 0 2.3em 2em !important;
+
+    .award-modal-category{
+        text-transform: capitalize;
+
+        span{
+            font-weight: 700;
+        }
+
+        .gold{
+            color: #FFC639;
+        }
+        .silver{
+            color: #a2a2a2;
+        }
+        .bronze{
+            color: #9d6451;
+        }
+    }
+    .award-modal-text{
+        text-transform: unset;
+        margin-top: 5px;
+        font-size: 0.9em;
+        padding: 1em;
+        background-color: #eef0ff;
+        border-radius: 5px;
+    }
+    .mobile-view-modal{
+        background-color: #5e72e4 !important;
+    }
+}
+
+// custom css for cards on different screen sizes
+
+.open-close-card{
+    .h2{
+        word-wrap: normal;
+    }
+}
+
+
+.collapse-dashboard{
+    background-color: #f0f3ff;
+    padding: 0.6rem 1rem 0.2rem !important;
+    border-radius: 5px;
+    div{
+
+        // color: #ffffff;
+    }
+}
+.collapse-dashboard-date{
+    background-color: #5F74E1;
+    padding: 0rem !important;
+    margin: 0 !important;
+    box-shadow: none !important;
+    border-style: none !important;
+    span{
+        font-weight: 500;
+        color: #ffffff;
+
+        &::after{
+            content: '';
+            height: 1px;
+            width: 50%;
+            transform: translateY(-5px);
+            margin-left: 1rem;
+            background-color: #fff;
+            display: inline-block;
+        }
+    }
+}
+
+
+.demographics-card{
+    div.text-info,div.text-red{
+        display: flex;
+        align-items: center;
+
+        p{
+            margin: 0 5px 0 0;
+            font-size: 0.75rem;
+        }
+    }
+}
+
+@media screen and (max-width: 1360px){
+    .age-estimation-card{
+        button{
+            margin-top: -20px;
+        }
+    }
+
+    .ppe-card{
+        .h4{
+            font-size: 0.8rem;
+        }
+        .col-3:first-child{
+            margin-right: 10px;
+        }
+    }
+
+    .open-close-card{
+        .h2{
+            font-size: 1rem !important;
+        }
+    }    
+}
+
+@media screen and (max-width: 1336px){
+    .billing-counter-card{
+        button{
+            margin-top: -20px;
+        }
+    }
+}
+
+@media screen and (max-width: 1271px){
+    .demographics-card{
+        div.text-info,div.text-red{
+            font-size: 1rem !important;
+        }
+
+        button{
+            margin-top: -20px;
+            
+            div.text-info{
+                font-size: .75rem !important;
+                p{
+                    font-size: .75rem;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .mp-0{
+        padding: 10px 0 20px 0;
+        margin: 0;
+    }
+}

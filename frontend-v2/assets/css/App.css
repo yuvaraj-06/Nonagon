@@ -1,0 +1,175 @@
+@import url(./notifications.scss);
+@import url(./highlightsTab.scss);
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+  background: rgba(94, 114, 228, 0.2);
+}
+
+.outlet-time {
+  text-align: left;
+  margin-left: 2em;
+}
+
+.dashboard-tab-container {
+  min-height: 100vh;
+}
+
+.disabled-modal {
+  cursor: not-allowed;
+}
+
+@media screen and (max-width: 576px) {
+  .g-sidenav-pinned .sidenav {
+    max-width: 300px !important;
+  }
+  .text-white.mb-0.ml-3.font-weight-bolder {
+    display: none;
+  }
+  .card-stats.card {
+    height: unset !important;
+  }
+  .align-items-center.py-4.row {
+    border-color: lightcoral;
+  }
+  .align-items-center.py-4.row .text-right.col-6.col-lg-6 {
+    -webkit-box-flex: unset;
+        -ms-flex: unset;
+            flex: unset;
+    max-width: unset;
+  }
+}
+
+.card-col {
+  height: 100% !important;
+}
+
+.card-stats.card {
+  height: 160px;
+}
+
+.cam-btn-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  padding-left: 1.4em !important;
+}
+
+.cam-btn {
+  height: 2.4em;
+  margin: 6px 8px !important;
+  padding: 4px 9px !important;
+}
+
+.cam-title {
+  padding-left: 1em !important;
+}
+
+.award-modal-header {
+  padding: 2.3em 2.3em 0 !important;
+}
+
+.award-modal-content {
+  padding: 0 2.3em 2em !important;
+}
+
+.award-modal-content .award-modal-category {
+  text-transform: capitalize;
+}
+
+.award-modal-content .award-modal-category span {
+  font-weight: 700;
+}
+
+.award-modal-content .award-modal-category .gold {
+  color: #FFC639;
+}
+
+.award-modal-content .award-modal-category .silver {
+  color: #a2a2a2;
+}
+
+.award-modal-content .award-modal-category .bronze {
+  color: #9d6451;
+}
+
+.award-modal-content .award-modal-text {
+  text-transform: unset;
+  margin-top: 5px;
+  font-size: 0.9em;
+  padding: 1em;
+  background-color: #eef0ff;
+  border-radius: 5px;
+}
+
+.award-modal-content .mobile-view-modal {
+  background-color: #5e72e4 !important;
+}
+
+.open-close-card .h2 {
+  word-wrap: normal;
+}
+
+.demographics-card div.text-info, .demographics-card div.text-red {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.demographics-card div.text-info p, .demographics-card div.text-red p {
+  margin: 0 5px 0 0;
+  font-size: 0.75rem;
+}
+
+@media screen and (max-width: 1360px) {
+  .age-estimation-card button {
+    margin-top: -20px;
+  }
+  .ppe-card .h4 {
+    font-size: 0.8rem;
+  }
+  .ppe-card .col-3:first-child {
+    margin-right: 10px;
+  }
+  .open-close-card .h2 {
+    font-size: 1rem !important;
+  }
+}
+
+@media screen and (max-width: 1336px) {
+  .billing-counter-card button {
+    margin-top: -20px;
+  }
+}
+
+@media screen and (max-width: 1271px) {
+  .demographics-card div.text-info, .demographics-card div.text-red {
+    font-size: 1rem !important;
+  }
+  .demographics-card button {
+    margin-top: -20px;
+  }
+  .demographics-card button div.text-info {
+    font-size: .75rem !important;
+  }
+  .demographics-card button div.text-info p {
+    font-size: .75rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .mp-0 {
+    padding: 10px 0 20px 0;
+    margin: 0;
+  }
+}
