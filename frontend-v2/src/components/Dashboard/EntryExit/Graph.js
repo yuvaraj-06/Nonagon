@@ -83,8 +83,8 @@ class Graph extends Component {
     )
       .then((result) => {
         console.log(result.data);
-        const x = Object.keys(result.data);
-        const y = Object.values(result.data);
+        const x = result.data[0].slice(32);
+        const y = result.data[1].slice(32);
         this._ismounted && this.setState({
           x,
           y,
