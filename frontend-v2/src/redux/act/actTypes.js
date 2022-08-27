@@ -1,1 +1,0 @@
-export const UPDATE_ACT = 'UPDATE_ACT'
