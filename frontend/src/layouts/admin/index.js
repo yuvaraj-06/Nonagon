@@ -95,10 +95,8 @@ export default function Dashboard(props) {
         return (
           <Route
             path={prop.layout + prop.path}
-            component={prop.component}
+            component={() => <prop.component address={address} setAddress={setAddress} />}
             key={key}
-            address={address}
-            setAddress={setAddress}
           />
         );
       }

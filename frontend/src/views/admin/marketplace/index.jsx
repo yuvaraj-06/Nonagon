@@ -55,8 +55,9 @@ import Avatar4 from "assets/img/avatars/avatar4.png";
 import tableDataTopCreators from "views/admin/marketplace/variables/tableDataTopCreators.json";
 import { tableColumnsTopCreators } from "views/admin/marketplace/variables/tableColumnsTopCreators";
 
-export default function Marketplace() {
+export default function Marketplace(props) {
   // Chakra Color Mode
+  const {address} = props;
   const textColor = useColorModeValue("secondaryGray.900", "white");
   const textColorBrand = useColorModeValue("brand.500", "white");
   return (
@@ -239,6 +240,7 @@ export default function Marketplace() {
             <TableTopCreators
               tableData={tableDataTopCreators}
               columnsData={tableColumnsTopCreators}
+              address={address}
             />
           </Card>
           <Card p='0px'>
