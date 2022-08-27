@@ -28,7 +28,7 @@ class CovalentServiceController:
                     for item in result["data"]["items"]
                 )
 
-            return sorted(response, key=lambda x: x[1])
+            return sorted(response, key=lambda x: x[1], reverse=True)
         else:
             for chainId in data:
                 result = getHistoricalPortfolioValueOverTime(chainId, self.address)
@@ -41,4 +41,4 @@ class CovalentServiceController:
                     for item in result["data"]["items"]
                 ]
 
-        return sorted(response, key=lambda item: item[1])
+        return sorted(response, key=lambda item: item[1], reverse=True)
