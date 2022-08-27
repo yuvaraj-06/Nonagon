@@ -10,8 +10,9 @@ portfolio_router = APIRouter(prefix="/api/v1", tags=["billing_status"])
 
 
 @portfolio_router.get("/portfolio_value/{chainid}/{address}")
-async def get_portfolio_value(chainid: str, address: str):
+async def get_portfolio_value(chainid: int, address: str):
     """
     Returns the low and high portfolio value over time for a given address.
     """
-    return CovalentServiceController.getLowHigh(chainid, address)
+    jackass = CovalentServiceController(chainid, address)
+    return jackass.getLowHigh()
