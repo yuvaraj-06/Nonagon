@@ -2,11 +2,7 @@ from dataclasses import dataclass
 from typing import Optional
 
 
-from fastapi import APIRouter, HTTPException, BackgroundTasks
-from fastapi.responses import JSONResponse
-from fastapi.params import Form, Body
-from fastapi import File, UploadFile
-from pydantic import BaseModel
+from fastapi import APIRouter
 
 from api.controllers.covalent import CovalentServiceController
 
