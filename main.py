@@ -3,7 +3,8 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from api import models
-from api.routes import individualPortfolioValue
+from api.routes import individualPortfolioValue, getData
+
 
 app = FastAPI(debug=True)
 
@@ -25,6 +26,7 @@ def root():
 
 
 app.include_router(individualPortfolioValue.portfolio_router)
+app.include_router(getData.data_router)
 
 if __name__ == "__main__":
     uvicorn.run("main:app", host=models.HOST, port=models.PORT, reload=True, debug=True)
