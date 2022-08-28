@@ -51,6 +51,8 @@ A potential way make analysis easier and better with indexed data is by onboardi
 
    <b> Website: </b> Django ,REST APIs 
    
+   <b> Blockchains Supported: </b>  ETH,BSC,FANTOM,POLYGON,
+   
    <b> API : </b>  Covalent APIs
    
    <b> Machine Learning : </b>  Data Mining Techniques , Pandas
