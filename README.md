@@ -13,24 +13,16 @@
 # Instructions to run application:
 
 
-      1. Create a python 3.7 virtual environment and proceeed with installation there:
-      
-      2. Clone this repository cd to folder and install the modules in requirements.txt and run
-           pip install -r requirements.txt.
-
-      3. To run this project, Open command prompt type 
-      
-      4. cd api
-      
-      5. Run `python main.py`
-
-      4. `cd ../Dashboard`
- 
-      5. Run `python manage.py migrate` first and then `python manage.py runserver`
-      
-      6. You Can See The Website Live in  http://127.0.0.1:8000/
-      
-      7. Create a new account at the sign up page and avail the services.
+1. Create a python 3.7 virtual environment and proceeed with installation there:
+2. Clone this repository cd to folder and install the modules in requirements.txt and run `pip install -r requirements.txt`.
+3. To run this project, Open command prompt type 
+4. `cd Nonagon/api`
+5. Run `python main.py`
+6. You can access the Swagger at http://localhost:8080
+7. `cd ../Dashboard`
+8. Run `python manage.py migrate` first and then `python manage.py runserver`
+9. You Can See The Website Live in  http://127.0.0.1:8000/
+10. Create a new account at the sign up page and avail the services.
 
 # Motivation for the project:
 
