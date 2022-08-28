@@ -1,7 +1,7 @@
 
 
 
-[![Nonagon](https://github.com/yuvaraj-06/Nonagon/blob/main/logo.png?raw=true)]
+[![Nonagon](https://github.com/yuvaraj-06/Nonagon/blob/main/logo.png?raw=true)](https://github.com/yuvaraj-06/Nonagon/blob/main/logo.png?raw=true)
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
 # Project Demo
