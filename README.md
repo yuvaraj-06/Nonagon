@@ -19,10 +19,14 @@
            pip install -r requirements.txt.
 
       3. To run this project, Open command prompt type 
+      
+      4. cd api
+      
+      5. Run `python main.py`
 
-      4. cd Dashboard
+      4. `cd ../Dashboard`
  
-      5. Type python manage.py migrate and then python manage.py runserver
+      5. Run `python manage.py migrate` first and then `python manage.py runserver`
       
       6. You Can See The Website Live in  http://127.0.0.1:8000/
       
