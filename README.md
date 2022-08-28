@@ -1,11 +1,10 @@
 
 
 
-[![Nonagon](https://github.com/yuvaraj-06/Nonagon/blob/main/logo.png?raw=true) 
+[![Nonagon](https://github.com/yuvaraj-06/Nonagon/blob/main/logo.png?raw=true)]
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
 # Project Demo
-
 
 [![Watch the video](https://github.com/)
 ####                                Click on the image above to watch the demo
@@ -34,11 +33,9 @@
 
 # Tech stack and Modules used:
 
-   <b> Website: </b>
+   <b> Website: Django</b>
    
-   <b> dd </b>  
-   
-   <b> Natural Language Processing: </b>  
+   <b> Backend: FastAPI, Covalent API </b>   
    
  
 # Overview of Website:
