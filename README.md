@@ -7,8 +7,8 @@
 # Project Demo
 
 
-[![Watch the video](https://youtu.be/smjalXyNptU)](https://youtu.be/smjalXyNptU)
-####   Click on the image above to watch the demo
+[![Cross Chain Analytics](https://assets.devfolio.co/hackathons/92aad02596384660a3f09b606d311ee7/projects/938c7774a8544c1cb8ab6503395d7c3c/bad0a071-eebd-4227-9fb7-6f2dd6d21ffa.png)](https://youtu.be/smjalXyNptU "Cross Chain Analytics")
+####  Click on the image above to watch the demo
 
 # Instructions to run application:
 
