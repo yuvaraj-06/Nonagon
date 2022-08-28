@@ -7,7 +7,7 @@
 # Project Demo
 
 
-[![Watch the video](https://github.com/)](https://github.com/)
+[![Watch the video](https://youtu.be/smjalXyNptU)](https://youtu.be/smjalXyNptU)
 ####   Click on the image above to watch the demo
 
 # Instructions to run application:
