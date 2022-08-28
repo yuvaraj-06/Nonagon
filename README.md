@@ -7,7 +7,7 @@
 # Project Demo
 
 
-[![Cross Chain Analytics](https://assets.devfolio.co/hackathons/92aad02596384660a3f09b606d311ee7/projects/938c7774a8544c1cb8ab6503395d7c3c/bad0a071-eebd-4227-9fb7-6f2dd6d21ffa.png)](https://youtu.be/smjalXyNptU "Cross Chain Analytics")
+[![Cross Chain Analytics](https://github.com/yuvaraj-06/Nonagon/blob/843851c3c161856935ca1f9354b18743dd92d94b/mocks/Screenshot%202022-08-28%20at%2010.52.06%20AM.png)](https://youtu.be/smjalXyNptU "Cross Chain Analytics")
 ####  Click on the image above to watch the demo
 
 # Instructions to run application:
