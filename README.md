@@ -21,7 +21,7 @@
 6. You can access the Swagger at http://localhost:8080
 7. `cd ../Dashboard`
 8. Run `python manage.py migrate` first and then `python manage.py runserver`
-9. You Can See The Website Live in  http://127.0.0.1:8000/
+9. You Can See The Website Live in  http://localhost:8000/
 10. Create a new account at the sign up page and avail the services.
 
 # Motivation for the project:
