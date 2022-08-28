@@ -26,7 +26,7 @@
 
 # Motivation for the project:
 
-Blockchains produce a lot of data that gets indexed and is sitting on chain. This data is not yet being analysed and across dapps and chains to create insights for users, developers and investors. 
+Blockchains produce a lot of data that gets indexed and is sitting on chain. This data is not yet being analysed across dapps and chains to create insights for users, developers and investors. 
 
 We would like to analyse the data available on chain by creating relations across dapps and chains to create insights.
 
@@ -34,7 +34,9 @@ We would like to analyse the data available on chain by creating relations acros
 
 Nonagon is an Analytics dashboard for browsing, discovering, analysing and consuming on chain raw data in the form of information and insights. 
 
-We are creating relations between web3 dapps across multiple evm chains and providing insights to users into the kind of projects that are being used currently and how the users of Project A are also using Projects B, C and D. This allows users to be aware of their actions and gives them insights into the projects they could also potentially use. 
+Covalent provides a unified API bringing visibility to billions of Web3 data points, by providing the richest and most robust data infrastructure for the entire Blockchain ecosystem.
+
+We are using covalent apis for retreiving data and then creating relations between web3 dapps across multiple evm chains and providing insights to users into the kind of projects that are being used currently and how the users of Project A are also using Projects B, C and D. This allows users to be aware of their actions and gives them insights into the projects they could also potentially use. 
 
 Another aspect to the use case is we can also let developers unlimit themselves and become aware of the actions and insights of their users and their behaviour.
 
